@@ -1,1 +1,21 @@
 /* your code */
+.main_table{
+
+   width: 1000px;
+   height: 200px;
+  border-collapse: collapse; 
+  background-color:white;
+  margin: auto;
+  
+}
+
+div{
+     text-align: center; 
+}
+.first_row{
+    text-transform: capitalize;
+    height: 40px;
+    background-color: orchid;
+    color:white;
+    border: 20% 20%;
+}
