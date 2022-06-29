@@ -2,11 +2,13 @@
 .main_table{
 
    width: 1000px;
-   height: 200px;
-  border-collapse: collapse; 
-  background-color:white;
-  margin: auto;
-  
+   height: 250px;
+   border: 1px solid black;
+   border-radius: 10px;
+   border-collapse: collapse; 
+   background-color:white;
+   margin: auto;
+   overflow: hidden;
 }
 
 div{
@@ -15,7 +17,12 @@ div{
 .first_row{
     text-transform: capitalize;
     height: 40px;
-    background-color: orchid;
+    background-color:rgb(84, 84, 212);
+    background-size: auto;
     color:white;
     border: 20% 20%;
+}
+tr{
+width: auto;
+background-size: auto;
 }
